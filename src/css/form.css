@@ -1,0 +1,41 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+/* Red color for "required" astrid */
+.required {
+	color: red;
+	font-weight: 600;
+}
+/* Border for each fieldset */
+.form-section {
+	margin: 15px 0;
+	border: 3px solid rgba(106, 209, 223, 0.657);
+	border-radius: 10px;
+	padding: 15px;
+}
+/* Width for species description and notes */
+#species-desc {
+	width: 75%;
+}
+#notes {
+	width: 78%;
+}
+/* Width for author section */
+#author-name {
+	width: 75%;
+}
+#author-email {
+  width:75%;
+}
+#license {
+  width: 80%;
+}
+/* Increase font size of the legend of fieldset */
+fieldset legend {
+  font-size: 1.2em;
+}
+/* Increase font weight of label of form */
+form label {
+  font-weight: 500;
+}
