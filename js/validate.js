@@ -1,10 +1,7 @@
 function validate(event) {
-  // TODO - write custom validation logic to validate the longitude and latitude
-  // values. The latitude value must be a number between -90 and 90; the
-  // longitude value must be a number between -180 and 180. If either/both are
-  // invalid, show the appropriate error message in the form, and stop the 
-  // form from being submitted. If both values are valid, allow the form to be
-  // submitted.
+  // Validate the entry of latitude (between -90 and 90) and longitude (between -180 and 180).
+  // If either or both are invalid, stop the form from being submitted and add an alert next to the required field.
+  // Else remove the alert and submit the form.
   const lat = document.querySelector('#latitude').value;
   const long = document.querySelector('#longitude').value;
   if (isNaN(lat) || lat > 90 || lat < -90) {
